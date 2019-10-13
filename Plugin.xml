@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+    <plugin>
+        <name>MP3播放器</name>
+        <jar>D:/plugin/a-plugin.jar</jar>
+        <class>com.Music.aplugin.APlugin</class>
+        <properties>
+            <property name="FTP_IP">192.168.7.1</property>
+            <property name="FTP_PORT">21</property>
+            <property name="FTP_USERNAME">XXG</property>
+            <property name="FTP_PASSWORD">123456</property>
+        </properties>
+    </plugin>
+    <plugin>
+        <name>B客户插件</name>
+        <jar>D:/plugin/b-plugin.jar</jar>
+        <class>com.xxg.bplugin.BPlugin</class>
+        <properties>
+            <property name="URL">http://www.xxg.com/api</property>
+        </properties>
+    </plugin>
+    <plugin>
+        <name>C客户插件</name>
+        <jar>D:/plugin/c-plugin.jar</jar>
+        <class>com.xxg.cplugin.CPlugin</class>
+        <properties>
+            <property name="EMAIL">xxg@xxg.com</property>
+        </properties>
+    </plugin>
+</plugins>
